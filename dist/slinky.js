@@ -89,10 +89,10 @@ var Slinky = function () {
 
           // if it's not empty, create the title
           if (label) {
-            var title = jQuery('<header>').addClass('title').text(label);
+            var title = jQuery('<span>').addClass('title').text(label);
 
             // append it to the immediate header
-            jQuery('> .header', element).append(title);
+            jQuery('> .header > .back', element).append(title);
           }
         });
       }

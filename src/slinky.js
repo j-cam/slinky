@@ -77,12 +77,12 @@ class Slinky {
 
         // if it's not empty, create the title
         if (label) {
-          const title = jQuery('<header>')
+          const title = jQuery('<span>')
             .addClass('title')
             .text(label)
 
           // append it to the immediate header
-          jQuery('> .header', element).append(title)
+          jQuery('> .header > .back', element).append(title)
         }
       })
     }
