@@ -82,7 +82,7 @@ class Slinky {
             .text(label)
 
           // append it to the immediate header
-          jQuery('> .header', element).append(title)
+          jQuery('> .header > .back', element).append(title)
         }
       })
     }
