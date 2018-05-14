@@ -55,10 +55,10 @@
 		"dev": "gulp dev",
 		"precommit": "gulp"
 	},
-  "lint-staged": {
-    "*.{js,scss,json}": [
-      "prettier --write --single-quote --no-semi --trailing-comma none",
-      "git add"
-    ]
-  }
+	"lint-staged": {
+		"*.{js,scss,json}": [
+			"prettier --write --single-quote --no-semi --trailing-comma none",
+			"git add"
+		]
+	}
 }
